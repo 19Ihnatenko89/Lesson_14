@@ -1,0 +1,55 @@
+body {
+  background-color: bisque;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__container {
+  max-width: 1670px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.header__container__menu {
+  display: flex;
+  align-content: center;
+  list-style: none;
+  gap: 40px;
+}
+.header__container__link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.main__container {
+  max-width: 1670px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.main__container .main__blok {
+  width: 600px;
+  height: 600px;
+}
+.main__container .left__block {
+  width: 300px;
+  height: 600px;
+  order: -1;
+  padding: 5px;
+  margin: 5px;
+}
+.main__container .right__block {
+  width: 300px;
+  height: 600px;
+  order: 2;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=scss.css.map */
