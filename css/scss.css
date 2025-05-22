@@ -53,11 +53,60 @@ body {
   font-size: 20px;
 }
 
-@media (max-width: 800px) {
+.footer__container {
+  max-width: 1670px;
+  height: 200px;
+  padding-top: 100px;
+  margin: 50px;
+}
+
+@media (max-width: 900px) {
   body {
     background-color: bisque;
     font-size: 14px;
   }
+  .main__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.footer__container {
+  padding-top: 1200px;
+  margin: 20px;
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    font-size: 12px;
+  }
+  .main__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.footer__container {
+  padding-top: 1200px;
+  margin: 20px;
+}
+
+@media (max-width: 720px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    font-size: 12px;
+  }
+  .main__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.footer__container {
+  padding-top: 1200px;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=scss.css.map */
